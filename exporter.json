@@ -1,0 +1,13 @@
+{
+  "id": "formation.exporter-npm",
+  "name": "Formation Tokens Exporter",
+  "description": "Export Formation design system data into NPM package",
+  "author": "Matt Hall",
+  "organization": "The Football Association",
+  "homepage": "https://www.thefa.com",
+  "version": "1.0.0",
+  "usesBrands": true,
+  "executable": "/dist/build.js",
+  "engine": "latest",
+  "tags": ["CSS", "Variables", "Tokens"]
+}

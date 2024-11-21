@@ -1,0 +1,25 @@
+{
+  "name": "@thefa/formation-tokens-exporter",
+  "version": "1.0.0",
+  "description": "Export design system data into Formation tokens",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx webpack --mode=development --watch",
+    "build": "npx webpack --mode=production",
+  },
+  "author": "The FA Design Team <design@thefa.com>",
+  "license": "None",
+  "dependencies": {
+    "@supernovaio/export-helpers": "latest",
+    "@supernovaio/sdk-exporters": "latest",
+    "@supernovaio/supernova-sdk": "^1.9.36"
+  },
+  "devDependencies": {
+    "prettier": "3.0.3",
+    "terser-webpack-plugin": "5.3.9",
+    "ts-loader": "^7.0.5",
+    "typescript": "^5.2.2",
+    "webpack": "5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
